@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+.center {
+   text-align: center;
+}
+img {
+    width: 90%;
+}
+ul {
+    list-style-type: none;
+}
+ul li{
+    padding: 1em 1em;
+    background-color: #E0E0E0;
+    margin: .5em 1.5em .5em 0em;
+    overflow: auto;
+}
+a {
+    text-decoration: none;
+    color: #669999;
+}
+h1 {
+    font-family: 'Imbue', serif;
+    letter-spacing: .03em;
+}
+main {
+    background-color: #fbf8e0;
+}
+h2 {
+    font-family: 'Imbue', serif;
+    letter-spacing: .03em;
+}
+body {
+    font-family: 'Hachi Maru Pop', cursive;
+}
+footer {
+    display: inline;
+}
+hr {
+    width: 90%;
+    text-align: center;
+    color: slategrey;
+}
+#home-link-footer {
+ float: right;
+}
+#student-name-footer {
+  float: left;
+}
+#portfolio-link-footer {
+    display: none;
+}
+#contact-link-footer {
+    display: none;
+}
+#skills-link-footer {
+    display: none;
+}
+#skills-list {
+    background-color: white;
+    
+}
+
+footer p {
+    display: inline;
+}
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+ul li {
+    width: 25%;
+    display: inline;
+    background-color: white;
+}
+#david-williamson-image {
+    float: right;
+    width: 35%;
+    margin-left: .25em;
+    margin-bottom: .25em;
+    margin-top: 1%;
+}
+img {
+    width: 95%;
+    margin-top: 2%;
+}
+
+#contact {
+    background-color: ghostwhite;
+    padding: 0;
+}
+#contact li {
+    background-color: ghostwhite;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.marketing-page {
+    grid-column: 1;
+    grid-row: 1;
+}
+.search-page {
+    grid-column: 2;
+    grid-row: 1;
+}
+.container {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+}
+#title-paragraph {
+    margin-bottom: 24%
+}
+#portfolio-link-footer {
+    display: inline-block;
+    margin-right: 2em;
+}
+#contact-link-footer {
+    display: inline-block;
+    margin-right: 2em;
+}
+#skills-link-footer {
+    display: inline-block;
+}
+#home-link-footer {
+    display: inline-block;
+    float: none;
+    margin-right: 2em;
+}
+#student-name-footer {
+    width: 40%;
+    display: inline-block;
+    float: none;
+}
+}
+@media only screen and (min-width:1024px){
+    header h1 {
+        float:left;
+        width: 20%;
+    }
+    nav ul {
+        text-align: right;
+    }
+    ul li {
+        display: inline-block;
+        background-color: white;
+        width: 14%;
+        margin-right: 0;
+    }
+    #david-williamson-image {
+        float: right;
+        width: 35%;
+        margin-top: 1%;
+        margin-left: .25em;
+        margin-bottom: .25em;
+    }
+    img {
+        width: 95%;
+        margin-top: 2%;
+    }
+    #contact {
+        background-color: ghostwhite;
+        padding: 0;
+    }
+    #contact li {
+        background-color: ghostwhite;
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    .marketing-page {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .search-page {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .travel-app {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+    }
+    #title-paragraph {
+        margin-bottom: 25%
+    }
+    #portfolio-link-footer {
+        display: inline-block;
+        margin-right: 2em;
+    }
+    #contact-link-footer {
+        display: inline-block;
+        margin-right: 2em;
+    }
+    #skills-link-footer {
+        display: inline-block;
+    }
+    #home-link-footer {
+        display: inline-block;
+        float: none;
+        margin-right: 2em;
+    }
+    #student-name-footer {
+        width: 50%;
+        display: inline-block;
+        float: none;
+    }
+    #skills-list li {
+        width: 20%;
+    }
+}
