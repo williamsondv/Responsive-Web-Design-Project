@@ -59,9 +59,10 @@ hr {
 }
 #skills-list {
     background-color: white;
-    
 }
-
+#skills {
+    background-color: white;
+}
 footer p {
     display: inline;
 }
